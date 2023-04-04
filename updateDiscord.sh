@@ -12,3 +12,6 @@ cd $(dirname $(which discord))
 
 ./discord & disown 
 
+pkill -STOP terminal
+
+exit
