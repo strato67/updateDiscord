@@ -10,8 +10,7 @@ rm discord.deb
 
 cd $(dirname $(which discord))
 
-./discord & disown 
+./discord & disown
 
-pkill -STOP terminal
 
-exit
+
