@@ -11,6 +11,3 @@ rm discord.deb
 cd $(dirname $(which discord))
 
 ./discord & disown
-
-
-
